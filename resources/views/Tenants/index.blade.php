@@ -59,10 +59,9 @@
                   <td>
                      Khalifi
                 </td>
-
-                  <td class="budget">
-                  </td>
-
+                <td>
+                     +256779767679
+                </td>
 
                   <td>
                     <a href="Tenants/show" class="btn btn-sm btn-neutral">View</a>
