@@ -39,18 +39,18 @@
                     </a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link" href="#">
+                    <a class="nav-link" href="{{ route('tenants') }}">
                         <i class="ni ni-single-02 text-orange"></i> {{ __('Tenants') }}
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">
+                    <a class="nav-link" href="{{ route('payments') }}">
                       <i class="ni ni-money-coins text-default"></i>
                       <span class="nav-link-text">{{ __('Payments') }}</span>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">
+                    <a class="nav-link" href="{{ route('services') }}">
                         <i class="ni ni-settings text-pink"></i> {{ __('Service Requests') }}
                     </a>
                 </li>

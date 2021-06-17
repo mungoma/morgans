@@ -41,6 +41,10 @@ Route::group(['middleware' => 'auth'], function () {
     Route::resource('/Payments', PaymentsController::class);
     Route::resource('/ServiceRequests', ServiceRequestsController::class);
     Route::get('/Apartments', 'App\Http\Controllers\ApartmentsController@index')->name('apartments');
+    Route::get('/Tenants', 'App\Http\Controllers\TenantsController@index')->name('tenants');
+    Route::get('/Payments', 'App\Http\Controllers\PaymentsController@index')->name('payments');
+    Route::get('/ServiceRequests', 'App\Http\Controllers\ServiceRequestsController@index')->name('services');
+    Route::get('/Bookings', 'App\Http\Controllers\BookingsController@index')->name('inquiries');
 
 });
 

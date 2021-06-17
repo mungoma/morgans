@@ -14,18 +14,16 @@
                     <div class="card-body">
                         <form method="post" action="/Apartments" autocomplete="off">
                           @csrf
-                            <h6 class="heading-small text-muted mb-4">Apartments information</h6>
+                            <h6 class="heading-small text-muted mb-4">Tenants Info</h6>
                             <div class="pl-lg-4">
                                     <label class="form-control-label" for="input-name">{{ __('Name') }}</label>
                                     <input type="text" name="name" id="input-name"  placeholder="{{ __('') }}"  required autofocus>
-                                    <label class="form-control-label" for="input-name">{{ __('Location') }}</label>
+                                    <label class="form-control-label" for="input-name">{{ __('Contact') }}</label>
                                     <input type="text" name="location" id="input-name"  placeholder="{{ __('') }}"  required autofocus>
-                                    <label class="form-control-label" for="input-name">{{ __(' Rentals') }}</label>
+                                    <label class="form-control-label" for="input-name">{{ __(' Apartment') }}</label>
                                     <input type="integer" name="rentals" id="input-name"  placeholder="{{ __('') }}"  required autofocus>
-                                    <label class="form-control-label" for="input-name">{{ __(' Rentals') }}</label>
+                                    <label class="form-control-label" for="input-name">{{ __(' Next Of Kin') }}</label>
                                     <input type="integer" name="prices" id="input-name"  placeholder="{{ __('') }}"  required autofocus>
-                                    <label class="form-control-label" for="input-name">{{ __(' Rentals') }}</label>
-                                    <input type="integer" name="image" id="input-name"  placeholder="{{ __('') }}"  required autofocus>
                                 <div class="text-center">
                                     <button type="submit" class="btn btn-success mt-4">{{ __('Add') }}</button>
                                 </div>

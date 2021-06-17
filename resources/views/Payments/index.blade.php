@@ -9,20 +9,14 @@
                 <div class="header-body">
                 <div class="row align-items-center py-4">
                     <div class="col-lg-6 col-7">
-                    <h6 class="h2 text-white d-inline-block mb-0">Apartments</h6>
-                        <form class="navbar-search navbar-search-light form-inline mr-sm-3" id="navbar-search-main">
-                            <div class="form-group mb-0">
-                                <div class="input-group input-group-alternative input-group-merge">
-                                <div class="input-group-prepend">
-                                    <span class="input-group-text"><i class="fas fa-search"></i></span>
-                                </div>
-                                <input class="form-control" placeholder="Search" type="text">
-                                </div>
-                            </div>
-                            <button type="button" class="close" data-action="search-close" data-target="#navbar-search-main" aria-label="Close">
-                                <span aria-hidden="true"></span>
-                            </button>
-                            </form>
+                        <button type="button" class="btn btn-success">
+                            <span>Confirmed Payments</span>
+                            <span class="badge badge-md badge-circle badge-floating badge-default border-white">8</span>
+                        </button>
+                        <button type="button" class="btn btn-default">
+                            <span>Pending Payments</span>
+                            <span class="badge badge-md badge-circle badge-floating badge-secondary border-white">4</span>
+                        </button>
                     </div>
                     <div class="col-lg-6 col-5 text-right">
                     <a href="Payments/create" class="btn btn-sm btn-neutral">New</a>
@@ -39,7 +33,7 @@
                 <div class="card">
                     <!-- Card header -->
                     <div class="card-header border-0">
-                    <h3 class="mb-0">Apartments List</h3>
+                    <h3 class="mb-0">Payments</h3>
                 </div>
                 <!-- Light table -->
         <div class="table-responsive">
@@ -48,10 +42,10 @@
                 <tr>
                         <th scope="col" class="sort" data-sort="name">N0</th>
                         <th scope="col" class="sort" data-sort="name">Name</th>
-                        <th scope="col" class="sort" data-sort="name">Location</th>
-                        <th scope="col" class="sort" data-sort="budget">Rentals</th>
-                        <th scope="col" class="sort" data-sort="budget">Tenants</th>
-                        <th scope="col" class="sort" data-sort="status">Occupancy</th>
+                        <th scope="col" class="sort" data-sort="name">Amount</th>
+                        <th scope="col" class="sort" data-sort="budget">Apartment</th>
+                        <th scope="col" class="sort" data-sort="budget">Contact</th>
+                        <th scope="col" class="sort" data-sort="status">Dates</th>
                         <th></th>
                         <th></th>
 
@@ -62,39 +56,19 @@
             <td class="budget">
             </td>
                   <td scope="row">
-                      <div class="media align-items-center">
-                      <a href="#" class="avatar rounded-circle mr-3">
-                          <img alt="Image placeholder" src="../assets/img/theme/bootstrap.jpg">
-                      </a>
-                      <div class="media-body">
-                          <span class="name mb-0 text-sm"></span>
-                      </div>
-                      </div>
                   </td>
                   <td>
-                    <span class="badge badge-dot mr-4">
-                    <i class="bg-success"></i>
-                    <span class="status"></span>
-                    </span>
+
                 </td>
                   <td class="budget">
                   </td>
                 <td class="budget">
-                  <a href="Apartments/create"> {{ ('10') }}</a>
                 </td>
 
                   <td>
-                      <div class="d-flex align-items-center">
-                      <span class="completion mr-2">60%</span>
-                      <div>
-                          <div class="progress">
-                          <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div>
-                          </div>
-                      </div>
-                      </div>
                   </td>
                   <td>
-                    <a href="Apartments/create" class="btn btn-sm btn-neutral">View</a>
+                    <a href="Payments/show" class="btn btn-sm btn-neutral">View</a>
                   </td>
                   <td class="text-right">
                       <div class="dropdown">

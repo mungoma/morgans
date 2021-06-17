@@ -4,8 +4,8 @@
 @section('content')
     @include('users.partials.header', [
         'title' => __('Hello') . ' '. auth()->user()->name,
-        'description' => __('Congragulations on your new Apartment, You can add it to the family now by submitting its details below'),
-        'class' => 'col-lg-12'
+        'description' => __(''),
+        'class' => 'col-lg-10'
     ])
 
 <div class="container-fluid mt--7">
@@ -54,14 +54,7 @@
                             <i class="ni location_pin mr-2"></i>{{ __('wakiso, Uganda') }}
                         </div>
                         <div class="h5 mt-4">
-                             <button type="button" class="btn btn-default">
-                                <span>Pending Payments</span>
-                                <span class="badge badge-primary">24</span>
-                            </button>
-                            <button type="button" class="btn btn-danger">
-                                <span>Overdue Customers</span>
-                                <span class="badge badge-md badge-circle badge-floating badge-danger border-white">4</span>
-                            </button>
+
                         </div>
                     </div>
                 </div>

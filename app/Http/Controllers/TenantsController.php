@@ -24,7 +24,7 @@ class TenantsController extends Controller
      */
     public function create()
     {
-        //
+        return view('Tenants.create');
     }
 
     /**
@@ -46,7 +46,7 @@ class TenantsController extends Controller
      */
     public function show($id)
     {
-        //
+        return view('Tenants.show');
     }
 
     /**
