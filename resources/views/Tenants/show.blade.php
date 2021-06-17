@@ -40,7 +40,7 @@
                                     <span class="description">{{ __('Payment') }}</span>
                                 </div>
                                 <div>
-                                    <span class="heading">+256770896978</span>
+                                    <span class="heading">+256779767679</span>
                                     <span class="description">{{ __('Contact') }}</span>
                                 </div>
                                 <div>

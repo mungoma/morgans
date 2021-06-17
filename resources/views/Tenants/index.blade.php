@@ -51,16 +51,17 @@
             </thead>
             <tbody class="list">
           <tr>
-            <td class="budget">
+            <td class="budget">1
             </td>
-                  <td scope="row">
+                  <td scope="row">Tonny tula
 
                   </td>
                   <td>
-                    <
+                     Khalifi
                 </td>
+
                   <td class="budget">
-                  </td>
+                  </td> +256779767679
 
 
                   <td>
